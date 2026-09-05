@@ -1,0 +1,38 @@
+==================================================================
+        MAD ISLAND - MOD: NPC LEVEL & STAT VIEWER
+==================================================================
+
+CARACTERÍSTICAS:
+----------------
+1. Lista de todos los NPCs amigos/aliados con su nombre, nivel y puntos disponibles.
+2. Muestra las 3 estadísticas principales que se pueden subir:
+   - H : Vitalidad / Health
+   - F / A : Fuerza / Attack
+   - V / S : Velocidad / Speed
+3. Muestra el costo en puntos de cada estadística (aumenta según el nivel del stat).
+4. Si el NPC tiene suficientes puntos, el botón se ilumina en VERDE brillante.
+5. ¡SUBIDA INSTANTÁNEA CON UN CLICK O CON EL TECLADO!
+   - Puedes hacer click directamente en el botón [H], [F] o [V] para gastar puntos.
+   - O simplemente pasa el cursor del mouse sobre la fila del NPC y presiona:
+     * 'H' en tu teclado para subir Vitalidad.
+     * 'F' o 'A' en tu teclado para subir Fuerza/Ataque.
+     * 'V' o 'S' en tu teclado para subir Velocidad.
+6. Soporte para subida múltiple:
+   - Botones 1x, 10x, 100x en la barra superior.
+   - O mantén Shift al clickear/presionar tecla para subir 10 veces de golpe.
+   - O mantén Control al clickear/presionar tecla para subir 100 veces de golpe.
+7. Reproduce el sonido original del juego (SoundManager.GoSoundButton) al subir.
+8. Actualiza inmediatamente la UI del juego si tienes abierta la pantalla de status.
+
+CONTROLES:
+----------
+- F5 : Abrir / Cerrar la ventana del mod (configurable en BepInEx/config/).
+- Botón en pantalla: Aparece un botón pequeño arriba a la izquierda para abrirlo fácilmente.
+- Selector de idioma en la barra: Cambia entre ES (H - F - V) y EN (H - A - S).
+- Filtro: Puedes alternar entre "Todos los NPCs" o "Solo con Puntos".
+
+RECOMPILACIÓN (Si editas el código fuente en src/):
+---------------------------------------------------
+- Simplemente haz doble click en "build.bat". No necesitas instalar nada extra,
+  utiliza el compilador oficial de C# incluido en Windows.
+==================================================================
